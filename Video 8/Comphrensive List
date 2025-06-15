@@ -1,0 +1,46 @@
+Block Elements(Most Commonly Used First)
+
+<div>: A generic container for flow content.
+<p>: Paragraph.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Headings.
+<ul>: Unordered lists.
+<ol>: Ordered lists.
+<li>: List items.
+<Form>: A section containing form controls.
+<table>: A standalone section of a document.
+<header>: A container for introductory content or a set of navigational links.
+<footer>: Footer of section or a page.
+<nav>: A section of a page that contains navigation links.
+<article>: A self contained composition in a document.
+<aside>: A section of a page that contains information indirectly related to the main.                            
+<main>: The main content of a document.
+<fieldsets>: A set of form controls grouped under a common name.
+<blockquote>: A block of text that is quotation from another source      
+<pre>: Preformatted text.
+<canvas>: A container used to drawe graphics via javascript.
+<dl>: Description list.
+<dd>: Description in description list.
+<dt>: Term in a description list.
+<figure>: Any content that is refrenced from the main content.
+<figcapytion>: A caption for <figure> element. 
+<address>: Contact information for the author or owner of the document.
+<hr>: A thematic break or a horizontal rule.
+<tfoot>: Footer of a table. 
+    
+    
+
+
+Inline Elements (Mostly Commonly Used First)
+<a>: Anchor or Hyperlink.
+<img>: Image.
+<span>: Generic inline container.
+<input>: Input field.
+<label>: Label for a form element.
+<strong>: Strong emphasis.
+<em>: Emphasized text.
+<br>: Line break.
+<code>: Code snippet.
+<b>: Bold text.
+<i>: Italic text.
+<u>: Underlined text.
+<small>: Smaller text.                                         

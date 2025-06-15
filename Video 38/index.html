@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        .container{
+            border: 3px solid rgb(54, 31, 31);
+            border-radius: 8px;
+            display: flex;
+            height: 80vh;
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: row; 
+            flex-wrap: wrap; 
+            align-content: center;  
+            gap: 10px 10px;
+        }
+        .order1{
+            order:1;
+        }
+        .order2{
+            order:2;
+        }
+        .order2{
+            order:2;
+        }
+
+        .item{
+            
+            height: 32px;
+            width: 32px;
+            border: 2px solid black;
+            margin: 4px;
+            background-color: blueviolet;
+        }
+
+       .item1{
+        flex-grow: 2;
+       }
+       
+    </style>
+</head>
+<body>
+    <main>
+     <div class="container">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item order-1">88</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+     </div>
+    </main>
+</body>
+</html>
